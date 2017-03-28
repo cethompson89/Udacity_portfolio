@@ -33,6 +33,7 @@ a {
     color: inherit;
 }
 
+/* Overrule bootstrap version */
 h1 small,
 h2 small,
 h3 small,
@@ -57,5 +58,5 @@ h6 .small,
 .h4 .small,
 .h5 .small,
 .h6 .small {
-  color: inherit;
+    color: inherit;
 }

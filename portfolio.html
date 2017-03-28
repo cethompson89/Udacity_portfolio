@@ -14,65 +14,100 @@
 
     <body>
       <div class="container">
+
         <div class="row">
           <div class="col-xs-3">
             <img src="./img/udacity.svg" width="80px" class="moveimage" alt="Udacity logo">
           </div>
-      <div class="col-xs-9 text-right text-uppercase">
-        <h1>Chris Thompson<br><small>Front-end Wizard</small></h1>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <hr>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <img src="./img/codepic.png" class="img-responsive" alt="Large coding picture" width="100%">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <h2>Featured Work</h2>
-      </div>
-    </div>
-    <div class="row text-center">
-      <div class="col-sm-6 col-md-4">
-        <img src="./img/appify.png" class="img-responsive center-block" alt="Appify picture" data-toggle="modal" data-target="#project1">
-        <h3 class="text-uppercase">Appify</h3>
-        <p><a href="https://github.com/udacity/Appify">https://github.com/udacity/Appify</a></p>
-      </div>
-      <div class="col-sm-6 col-md-4">
-        <img src="./img/sunflower.png" class="img-responsive center-block" alt="Sunflower picture">
-        <h3 class="text-uppercase">Sunflower</h3>
-        <p><a href="https://github.com/udacity/Sunflower">https://github.com/udacity/Sunflower</a></p>
-      </div>
-      <div class="col-sm-6 col-md-4">
-        <img src="./img/bokeh.png" class="img-responsive center-block" alt="Bokeh picture">
-        <h3 class="text-uppercase">Bokeh</h3>
-        <p><a href="https://github.com/udacity/Bokeh">https://github.com/udacity/Bokeh</a></p>
-      </div>
-
-    </div>
-  </div>
-
-    <!-- Modal -->
-    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
-                </div>
-                <div class="modal-body">
-                    <img class="img-responsive" src="./bootstrap-prestructure_files/555x300">
-                    This was my first project in this class. I learned a lot about HTML and CSS.
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
+          <div class="col-xs-9 text-right text-uppercase">
+            <h1>Chris Thompson<br><small>Front-end Wizard</small></h1>
+          </div>
         </div>
-    </div>
+        <div class="row">
+          <div class="col-md-12"><hr></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <img src="./img/codepic.png" class="img-responsive" alt="Large coding picture" width="100%">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Featured Work</h2>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-6 col-md-4">
+            <img src="./img/appify.png" class="img-responsive center-block" alt="Appify picture" data-toggle="modal" data-target="#project_appify">
+            <h3 class="text-uppercase">Appify</h3>
+            <p><a href="https://github.com/udacity/Appify">https://github.com/udacity/Appify</a></p>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <img src="./img/sunflower.png" class="img-responsive center-block" alt="Sunflower picture" data-toggle="modal" data-target="#project_sunflower">
+            <h3 class="text-uppercase">Sunflower</h3>
+            <p><a href="https://github.com/udacity/Sunflower">https://github.com/udacity/Sunflower</a></p>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <img src="./img/bokeh.png" class="img-responsive center-block" alt="Bokeh picture" data-toggle="modal" data-target="#project_bokeh">
+            <h3 class="text-uppercase">Bokeh</h3>
+            <p><a href="https://github.com/udacity/Bokeh">https://github.com/udacity/Bokeh</a></p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="project_appify" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h3 class="modal-title" id="myModalLabel">Appify Project</h3>
+                  </div>
+                  <div class="modal-body text-center">
+                      <img class="img-responsive center-block" src="./img/appify.png"><br>
+                      This was my first project in this class. I learned a lot about Appify.
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="modal fade" id="project_sunflower" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h3 class="modal-title" id="myModalLabel">Sunflower Project</h3>
+                  </div>
+                  <div class="modal-body text-center">
+                      <img class="img-responsive center-block" src="./img/sunflower.png"><br>
+                      This will be my 2nd project in this class. I hope to learn a lot about sunflowers.
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="modal fade" id="project_bokeh" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h3 class="modal-title" id="myModalLabel">Bokeh Project</h3>
+                  </div>
+                  <div class="modal-body text-center">
+                      <img class="img-responsive center-block" src="./img/bokeh.png"><br>
+                      This will be my 3rd project in this class. I just hope to learn what Bokeh actually is.
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+              </div>
+          </div>
+      </div>
 
 </body></html>
