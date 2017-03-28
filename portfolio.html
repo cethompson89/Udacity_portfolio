@@ -7,6 +7,7 @@
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <link rel="stylesheet" href="css/style.css">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet">
       <script type="text/javascript" src="js/jquery-3.2.0.js"></script>
       <script type="text/javascript" src="js/bootstrap.min.js"></script>
     </head>
@@ -14,15 +15,21 @@
     <body>
       <div class="container">
         <div class="row">
-          <div class="col-xs-3"><img src="./img/udacity.svg" width="100px"></div>
+          <div class="col-xs-3">
+            <img src="./img/udacity.svg" width="80px" class="moveimage" alt="Udacity logo">
+          </div>
       <div class="col-xs-9 text-right text-uppercase">
-        <h1>Chris Thompson </h1>
-        <h3>Front-end Wizard</h3>
+        <h1>Chris Thompson<br><small>Front-end Wizard</small></h1>
       </div>
     </div>
     <div class="row">
       <div class="col-md-12">
-        <img src="./img/codepic.png" class="img-responsive">
+        <hr>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="./img/codepic.png" class="img-responsive" alt="Large coding picture" width="100%">
       </div>
     </div>
     <div class="row">
@@ -30,23 +37,21 @@
         <h2>Featured Work</h2>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-4">
-        <img src="./img/appify.png" class="img-responsive" data-toggle="modal" data-target="#project1">
-        <h3>Appify</h3>
-        <p><a href="http://github.com/">Link to project</a></p>
+    <div class="row text-center">
+      <div class="col-sm-6 col-md-4">
+        <img src="./img/appify.png" class="img-responsive center-block" alt="Appify picture" data-toggle="modal" data-target="#project1">
+        <h3 class="text-uppercase">Appify</h3>
+        <p><a href="https://github.com/udacity/Appify">https://github.com/udacity/Appify</a></p>
       </div>
-      <div class="col-md-4">
-        <img src="./img/sunflower.png" class="img-responsive">
-        <h3>Sunflower</h3>
-        <p><a href="http://github.com/">Link to project</a></p>
+      <div class="col-sm-6 col-md-4">
+        <img src="./img/sunflower.png" class="img-responsive center-block" alt="Sunflower picture">
+        <h3 class="text-uppercase">Sunflower</h3>
+        <p><a href="https://github.com/udacity/Sunflower">https://github.com/udacity/Sunflower</a></p>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-md-46">
-        <img src="./img/bokeh.png" class="img-responsive">
-        <h3>Bokeh</h3>
-        <p><a href="http://github.com/">Link to project</a></p>
+      <div class="col-sm-6 col-md-4">
+        <img src="./img/bokeh.png" class="img-responsive center-block" alt="Bokeh picture">
+        <h3 class="text-uppercase">Bokeh</h3>
+        <p><a href="https://github.com/udacity/Bokeh">https://github.com/udacity/Bokeh</a></p>
       </div>
 
     </div>
