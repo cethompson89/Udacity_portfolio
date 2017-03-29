@@ -8,53 +8,54 @@
       <link rel="stylesheet" href="css/style.css">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet">
-      <script type="text/javascript" src="js/jquery-3.2.0.js"></script>
-      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+      <script src="js/jquery-3.2.0.js"></script>
+      <script src="js/bootstrap.min.js"></script>
     </head>
 
     <body>
       <div class="container">
 
-        <div class="row">
+        <header class="row">
           <div class="col-xs-3">
-            <img src="./img/udacity.svg" width="80px" class="moveimage" alt="Udacity logo">
+            <img src="./img/udacity.svg" width="80" class="move-image" alt="Udacity logo">
           </div>
           <div class="col-xs-9 text-right text-uppercase">
             <h1>Chris Thompson<br><small>Front-end Wizard</small></h1>
           </div>
-        </div>
+        </header>
+
         <div class="row">
           <div class="col-md-12"><hr></div>
         </div>
 
-        <div class="row">
+        <figure class="row">
           <div class="col-md-12">
             <img src="./img/codepic.png" class="img-responsive" alt="Large coding picture" width="100%">
           </div>
-        </div>
+        </figure>
 
         <div class="row">
           <div class="col-md-12">
             <h2>Featured Work</h2>
           </div>
         </div>
-        <div class="row text-center">
-          <div class="col-sm-6 col-md-4">
+        <main class="row text-center">
+          <section class="col-sm-6 col-md-4">
             <img src="./img/appify.png" class="img-responsive center-block" alt="Appify picture" data-toggle="modal" data-target="#project_appify">
             <h3 class="text-uppercase">Appify</h3>
-            <p><a href="https://github.com/udacity/Appify">https://github.com/udacity/Appify</a></p>
-          </div>
-          <div class="col-sm-6 col-md-4">
+            <p><a href="https://github.com/udacity/Appify" target="_black">https://github.com/udacity/Appify</a></p>
+          </section>
+          <section class="col-sm-6 col-md-4">
             <img src="./img/sunflower.png" class="img-responsive center-block" alt="Sunflower picture" data-toggle="modal" data-target="#project_sunflower">
             <h3 class="text-uppercase">Sunflower</h3>
-            <p><a href="https://github.com/udacity/Sunflower">https://github.com/udacity/Sunflower</a></p>
-          </div>
-          <div class="col-sm-6 col-md-4">
+            <p><a href="https://github.com/udacity/Sunflower" target="_black">https://github.com/udacity/Sunflower</a></p>
+          </section>
+          <section class="col-sm-6 col-md-4">
             <img src="./img/bokeh.png" class="img-responsive center-block" alt="Bokeh picture" data-toggle="modal" data-target="#project_bokeh">
             <h3 class="text-uppercase">Bokeh</h3>
-            <p><a href="https://github.com/udacity/Bokeh">https://github.com/udacity/Bokeh</a></p>
-          </div>
-        </div>
+            <p><a href="https://github.com/udacity/Bokeh" target="_black">https://github.com/udacity/Bokeh</a></p>
+          </section>
+        </main>
 
       </div>
 
@@ -66,7 +67,7 @@
                       <h3 class="modal-title" id="myModalLabel">Appify Project</h3>
                   </div>
                   <div class="modal-body text-center">
-                      <img class="img-responsive center-block" src="./img/appify.png"><br>
+                      <img class="img-responsive center-block" src="./img/appify.png" alt="Appify picture"><br>
                       This was my first project in this class. I learned a lot about Appify.
                   </div>
                   <div class="modal-footer">
@@ -83,7 +84,7 @@
                       <h3 class="modal-title" id="myModalLabel">Sunflower Project</h3>
                   </div>
                   <div class="modal-body text-center">
-                      <img class="img-responsive center-block" src="./img/sunflower.png"><br>
+                      <img class="img-responsive center-block" src="./img/sunflower.png" alt="Sunflower picture"><br>
                       This will be my 2nd project in this class. I hope to learn a lot about sunflowers.
                   </div>
                   <div class="modal-footer">
@@ -100,7 +101,7 @@
                       <h3 class="modal-title" id="myModalLabel">Bokeh Project</h3>
                   </div>
                   <div class="modal-body text-center">
-                      <img class="img-responsive center-block" src="./img/bokeh.png"><br>
+                      <img class="img-responsive center-block" src="./img/bokeh.png" alt="Bokeh picture"><br>
                       This will be my 3rd project in this class. I just hope to learn what Bokeh actually is.
                   </div>
                   <div class="modal-footer">

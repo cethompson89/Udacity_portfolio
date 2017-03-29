@@ -4,7 +4,7 @@ Static html file showing portfolio of work
 
 ## Usage
 1. Download project portfolio_project
-2. Open file portfolio.html in browser
+2. Open file index.html in browser
 
 ## Author
 * Christopher Thompson

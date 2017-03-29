@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #2d3c49;
 }
 
@@ -15,7 +15,7 @@ hr {
     background-color: #7d97ad; /* Modern Browsers */
 }
 
-.moveimage {
+.move-image {
     position: relative;
     top: 10px;
 }
